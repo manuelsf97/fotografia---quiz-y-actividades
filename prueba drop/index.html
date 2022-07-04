@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrastra Y Suelta</title>  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <center><a class="button"  rel="stylesheet" href="../index.html">Atras</a></center> 
+  <h1>ACTIVIDAD DE FOTOGRAFIA</h1>
+  <p>Arrastra y Suelta el nombre correspondiente a la imagen</p>
+
+  <main class="container">
+   
+    <div>
+      <ul class="draggable-list img">
+        <li id="e1" draggable="true"><img class="img" src="fotos/picado.jpg" alt="" ></li>
+        <li id="e2" draggable="true"><img class="img" src="fotos/plano detalle.jpg" alt=""></li>
+        <li id="e3" draggable="true"><img class="img" src="fotos/retrato.jpg" alt=""></li>
+        <li id="e4" draggable="true"><img class="img" src="fotos/plano general.jpg" alt=""></li>
+        <li id="e5" draggable="true"><img class="img" src="fotos/plano medio.jpg" alt=""></li>
+        <li id="e6" draggable="true"><img class="img" src="fotos/primerisioaPP.jpg" alt="" ></li>
+        <li id="e7" draggable="true"><img class="img" src="fotos/primer plano.jpg" alt=""></li>
+        <li id="e8" draggable="true"><img class="img" src="fotos/plano americano.jpg" alt="" ></li>
+        <li id="e9" draggable="true"><img class="img" src="fotos/simetria.jpg" alt=""></li>
+        <li id="e10" draggable="true"><img class="img" src="fotos/asimetria.jpg" alt=""></li>
+        <li id="e11" draggable="true"><img class="img" src="fotos/monocromia.jpg" alt=""></li>
+        <li id="e12" draggable="true"><img class="img" src="fotos/ley del tercio.jpg" alt="" ></li>
+        <li id="e13" draggable="true"><img class="img" src="fotos/gran plano general.jpg" alt="" ></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="draggable-list">
+        <li id="s12"draggable="true">Tercio Excluido</li><br>
+        <li id="s2" draggable="true">Plano Detalle</li><br>
+        <li id="s9" draggable="true">Simetria</li><br>
+        <li id="s5" draggable="true">Plano Medio</li><br>
+        <li id="s1" draggable="true">Angulo Picado </li><br>
+        <li id="s3" draggable="true">Retrato</li><br>
+        <li id="s11"draggable="true">Monocromia</li><br>
+        <li id="s4" draggable="true">Plano General</li><br>
+        <li id="s10" draggable="true">Asimetria</li><br>
+        <li id="s6" draggable="true">Primer Primerisimo Plano</li><br>
+        <li id="s7" draggable="true">Primer Plano</li><br>
+        <li id="s8" draggable="true">Plano Americano</li><br>
+        <li id="s13" draggable="true">Gran Plano General</li>
+       
+      </ul>
+    </div>
+    
+  </main>
+
+  <div id="endMessage">
+    <h3>¡Bien hecho!</h3>
+    <table>
+      <tr>
+        <th>ARRASTRA</th>
+       
+        <th>SUELTA</th>
+      </tr>
+      <tr>
+        <td>Angulo Picado</td>
+        <td><img class="img" src="fotos/picado.jpg" alt="" ></td>
+      </tr>
+      <tr>
+        <td>Plano Detalle</td>
+        <td><img class="img" src="fotos/plano detalle.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>Retrato</td>
+        <td><img class="img" src="fotos/retrato.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>Plano General</td>
+        <td><img class="img" src="fotos/plano general.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>Plano Medio</td>
+        <td><img class="img" src="fotos/plano medio.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>Primer Primerisimo Plano</td>
+        <td><img class="img" src="fotos/primerisioaPP.jpg" alt="" ></td>
+      </tr>
+      <tr>
+        <td>Primer Plano</td>
+        <td><img class="img" src="fotos/primer plano.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>Plano Americano</td>
+        <td><img class="img" src="fotos/plano americano.jpg" alt="" ></td>
+      </tr>
+      <tr>
+        <td>Simetria</td>
+        <td><img class="img" src="fotos/simetria.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>Asimetria</td>
+        <td><img class="img" src="fotos/asimetria.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>Monocromia</td>
+        <td><img class="img" src="fotos/monocromia.jpg" alt=""></td>
+      </tr>
+      <tr>
+        <td>Tercio Excluido</td>
+        <td><img class="img" src="fotos/ley del tercio.jpg" alt="" ></td>
+      </tr>
+      <tr>
+        <td>Gran plano General</td>
+        <td><img class="img" src="fotos/gran plano general.jpg" alt="" ></td>
+      </tr>
+    </table>
+
+    <button onclick="playAgain()">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
